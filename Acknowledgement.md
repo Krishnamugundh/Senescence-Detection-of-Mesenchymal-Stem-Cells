@@ -1,1 +1,1 @@
-### This is an Acknowledgement of that all the documents are solely my(Krishnamugundh P) work.
+### This is an Acknowledgement that all the documents in this repository are solely my(Krishnamugundh P) work.
