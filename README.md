@@ -34,6 +34,7 @@ We utilized the following pre-trained models:
 - **Faster R-CNN**
 
 ### Training Procedure
+The data is present in MASTER branch.
 We fine-tuned the pre-trained models using the following techniques:
 - **Optimizer**: Stochastic Gradient Descent (SGD) and Adam
 - **Learning Rate Scheduling**: To prevent overfitting
