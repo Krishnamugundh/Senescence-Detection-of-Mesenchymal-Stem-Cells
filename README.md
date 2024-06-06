@@ -33,18 +33,6 @@ We utilized the following pre-trained models:
 - **GoogLeNet**
 - **Faster R-CNN**
 
-#### DenseNet121
-DenseNet121 is known for its dense connectivity pattern, which enhances gradient flow and feature reuse.
-
-#### ResNet18
-ResNet18 is a residual network that addresses the vanishing gradient problem by allowing gradients to flow through shortcut connections.
-
-#### GoogLeNet
-GoogLeNet uses inception modules to capture multi-scale features efficiently.
-
-#### Faster R-CNN
-Faster R-CNN, combined with a ResNet50 backbone, excels in object detection tasks, making it suitable for identifying senescent cells.
-
 ### Training Procedure
 We fine-tuned the pre-trained models using the following techniques:
 - **Optimizer**: Stochastic Gradient Descent (SGD) and Adam
