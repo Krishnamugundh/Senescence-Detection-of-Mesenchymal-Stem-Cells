@@ -26,8 +26,7 @@ Mesenchymal stem cells (MSCs) are crucial for regenerative medicine due to their
 
 ## Methodology
 
-### Data Collection and Pre-processing
-# DATA:
+### Data Retrieval and Pre-processing
 Training data is shifted to MASTER branch. 
 The dataset comprises images from five donors at different time points, each stained for actin and nucleus. Images were captured using an Olympus IX83 fluorescence microscope and pre-processed to remove artifacts and standardize the dataset.
  - 1 - Senescent
