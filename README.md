@@ -4,7 +4,8 @@
 
 This project aims to detect senescent mesenchymal stem cells (MSCs) using pre-trained models such as DenseNet121, ResNet18, GoogLeNet, and Faster R-CNN. The study evaluates these models' performance on images obtained from Olympus fluorescence microscopes.
 
-## The data is present in MASTER branch.
+
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -26,7 +27,13 @@ Mesenchymal stem cells (MSCs) are crucial for regenerative medicine due to their
 ## Methodology
 
 ### Data Collection and Pre-processing
+# DATA:
+Training data is shifted to MASTER branch. 
 The dataset comprises images from five donors at different time points, each stained for actin and nucleus. Images were captured using an Olympus IX83 fluorescence microscope and pre-processed to remove artifacts and standardize the dataset.
+1 - Senescent 
+2 - Modrately Senescent
+3 - Non-Senescent
+![Training Datq Sample](images/training_data.png)
 
 ### Model Architectures
 We utilized the following pre-trained models:
@@ -45,6 +52,8 @@ We fine-tuned the pre-trained models using the following techniques:
 The models were evaluated using accuracy, precision and recall. Confusion matrices were used to analyze the classification performance in detail.
 
 ## Results
+### Predicted Images along with their classes:
+![Predicted Images](images/predicted_images.png)
 
 ### Loss vs. Epochs Graphs
 ![Loss vs. Epochs - DenseNet121](images/densenet.png)
