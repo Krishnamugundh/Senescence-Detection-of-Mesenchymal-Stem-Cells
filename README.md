@@ -10,7 +10,7 @@ This project aims to detect senescent mesenchymal stem cells (MSCs) using pre-tr
 ## Table of Contents
 - [Introduction](#introduction)
 - [Methodology](#methodology)
-  - [Data Collection and Pre-processing](#data-collection-and-pre-processing)
+  - [Data Retrieval and Pre-processing](#data-collection-and-pre-processing)
   - [Model Architectures](#model-architectures)
   - [Training Procedure](#training-procedure)
   - [Evaluation Metrics](#evaluation-metrics)
@@ -33,7 +33,7 @@ The dataset comprises images from five donors at different time points, each sta
  - 1 - Senescent
  - 2 - Moderately Senescent
  - 3 - Non-Senescent
- - 
+   
 ![Training Datq Sample](images/training_data.png)
 
 ### Model Architectures
