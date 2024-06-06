@@ -1,5 +1,3 @@
-Here's a GitHub repository template for your project "Senescence-Detection-of-Mesenchymal-Stem-Cells":
-
 ---
 
 # Senescence Detection of Mesenchymal Stem Cells
