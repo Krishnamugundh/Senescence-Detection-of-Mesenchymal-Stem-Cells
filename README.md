@@ -30,9 +30,9 @@ Mesenchymal stem cells (MSCs) are crucial for regenerative medicine due to their
 # DATA:
 Training data is shifted to MASTER branch. 
 The dataset comprises images from five donors at different time points, each stained for actin and nucleus. Images were captured using an Olympus IX83 fluorescence microscope and pre-processed to remove artifacts and standardize the dataset.
-1 - Senescent 
-2 - Modrately Senescent
-3 - Non-Senescent
+ - 1 - Senescent 
+ - 2 - Modrately Senescent
+ - 3 - Non-Senescent
 ![Training Datq Sample](images/training_data.png)
 
 ### Model Architectures
