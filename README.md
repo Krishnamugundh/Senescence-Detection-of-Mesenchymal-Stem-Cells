@@ -54,23 +54,22 @@ We fine-tuned the pre-trained models using the following techniques:
 - **Loss Function**: Cross-entropy loss for classification
 
 ### Evaluation Metrics
-The models were evaluated using accuracy, precision, recall, and F1-score. Confusion matrices were used to analyze the classification performance in detail.
+The models were evaluated using accuracy, precision and recall. Confusion matrices were used to analyze the classification performance in detail.
 
 ## Results
 
 ### Loss vs. Epochs Graphs
-![Loss vs. Epochs - DenseNet121](path/to/densenet121_loss.png)
-![Loss vs. Epochs - ResNet18](path/to/resnet18_loss.png)
-![Loss vs. Epochs - GoogLeNet](path/to/googlenet_loss.png)
-![Loss vs. Epochs - Faster R-CNN](path/to/faster_rcnn_loss.png)
+![Loss vs. Epochs - DenseNet121](images/densenet.png)
+![Loss vs. Epochs - ResNet18](images/resnet_18.png)
+![Loss vs. Epochs - GoogLeNet](images/googlenet.png)
 
 ### Model Performance Comparison
-| Model       | Accuracy | Precision | Recall | F1-score |
-|-------------|----------|-----------|--------|----------|
-| DenseNet121 | xx%      | xx%       | xx%    | xx%      |
-| ResNet18    | xx%      | xx%       | xx%    | xx%      |
-| GoogLeNet   | xx%      | xx%       | xx%    | xx%      |
-| Faster R-CNN| 91.6%    | xx%       | xx%    | xx%      |
+| Model       | Accuracy | Precision | Recall |
+|-------------|----------|-----------|--------|
+| ResNet18    | 91.6%    | 80.2%     | 86.5%  |
+| DenseNet121 | 84.5%    | 70.6%     | 88.6%  |
+| GoogLeNet   | 76.8%    | 74.3%     | 69.7%  |
+| Faster R-CNN| 71.4%    | 70.6%     | 65.7%  |
 
 ## Conclusion
 The Faster R-CNN model demonstrated the highest accuracy in detecting senescent MSCs, making it the most effective model for this task. The other models also showed competitive performance, indicating the robustness of deep learning techniques in this domain.
@@ -85,5 +84,3 @@ Future research could explore integrating multi-omics data, transfer learning te
 - [PaddleDetection](#) - Cascade R-CNN configurations
 
 ---
-
-This template includes placeholders for images and performance comparison tables, which you can fill with your actual data.
